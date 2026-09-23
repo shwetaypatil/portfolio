@@ -1,5 +1,5 @@
 import React from 'react'
-import illustration from '../../assets/illustration.png'
+import illustration from '../../assets/illustration.webp'
 
 const Leftcontent = () => {
   return (
