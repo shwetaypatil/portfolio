@@ -8,7 +8,7 @@ from email.message import EmailMessage
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, origins=["https://portfolio-chi-jet-8mk9l4b9u5.vercel.app/"])
+CORS(app, origins=["https://portfolio-chi-jet-8mk9l4b9u5.vercel.app"])
 
 EMAIL_USER = os.getenv("EMAIL_USER")
 EMAIL_PASSWORD = os.getenv("EMAIL_PASS")
