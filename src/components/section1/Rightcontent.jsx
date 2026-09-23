@@ -9,7 +9,7 @@ const Rightcontent = () => {
       <div className='relative aspect-square w-full max-w-[320px] sm:max-w-[420px] lg:max-w-[560px]'>
         <div className='absolute inset-[15%] rounded-[43%] bg-amber-500'></div>
 
-        <img src={profile} alt="profile" className='absolute inset-x-0 bottom-0 z-10 mx-auto h-[100%] w-[94%] object-contain object-bottom' />
+        <img src={profile} alt="profile" className='absolute inset-x-0 bottom-0 z-10 mx-auto h-[98%] w-[94%] object-contain object-bottom' />
 
         <div className='absolute bottom-[13%] left-0 z-20 rounded-full bg-[#344C36] px-3 py-2 text-xs text-white float sm:px-5 sm:py-3 sm:text-sm lg:text-base'>Frontend Developer</div>
 
